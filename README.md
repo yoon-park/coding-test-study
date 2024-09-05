@@ -1,5 +1,5 @@
 # Coding Test Study
-☑️ 코딩테스트 문제 풀이
+☑️ 코딩테스트 문제 풀이 in C++
 
 - programmers
 - Baekjoon
