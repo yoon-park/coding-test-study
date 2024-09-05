@@ -13,10 +13,7 @@ string solution(vector<string> my_strings, vector<vector<int>> parts) {
         s = parts[i][0];
         e = parts[i][1];
         
-        for (int j = s; j <= e ; j++)
-        {
-            answer.push_back(my_strings[i][j]);
-        }
+        answer += my_strings[i].substr(s, e - s + 1);
     }
     
     return answer;
