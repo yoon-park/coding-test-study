@@ -15,7 +15,7 @@ int solution(vector<int> absolutes, vector<bool> signs) {
         }
         else
         {
-            answer += absolutes[i] * (-1);
+            answer -= absolutes[i];
         }
     }
     
